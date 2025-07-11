@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/Thend-doc/',
   title: "Thend-doc",
   description: "部署个人知识在线笔记",
   themeConfig: {
